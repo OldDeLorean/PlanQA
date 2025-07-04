@@ -1,14 +1,14 @@
-# Nerfies
+# PlanQA
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This repository contains the source code for the PlanQA project website.
 
-If you find Nerfies useful for your work please cite:
+If you find PlanQA useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{rodionov2025planqa,
+  author    = {Rodionov, Fedor and Eldesokey, Abdelrahman and Birsak, Michael and Femiani, John and Ghanem, Bernard and Wonka, Peter},
+  title     = {PlanQA: A Benchmark for Spatial Reasoning in LLMs using Structured Representations},
+  journal   = {arXiv preprint},
+  year      = {2025},
 }
 ```
 
