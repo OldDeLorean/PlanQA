@@ -34,6 +34,81 @@
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
 
+  <!-- Custom CSS for highlights and table styling -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .table-container {
+      padding: 2rem;
+    }
+    .table {
+      border: 2px solid #343a40; /* Bold outer border */
+    }
+    .table thead th {
+      vertical-align: middle;
+      text-align: center;
+      background-color: #e9ecef;
+      border-color: #dee2e6; /* Default border color */
+    }
+    .table tbody td,
+    .table tbody th {
+      vertical-align: middle;
+      text-align: center;
+    }
+    .table tbody th {
+      text-align: left;
+      font-weight: normal;
+    }
+    .category-group-header {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* Custom highlight colors */
+    .highlight-15 {
+      background-color: #d4edda !important;
+    }
+    .highlight-30 {
+      background-color: #a3d9a5 !important;
+    }
+
+    /* --- STYLES FOR BOLD DIVIDERS & LOGOS --- */
+    .bold-v-divider {
+      border-right: 2px solid #343a40 !important;
+    }
+    .block-start > td,
+    .block-start > th {
+      border-top: 2px solid #343a40 !important;
+    }
+    .cmidrule {
+      border-bottom: 2px solid #343a40 !important;
+    }
+    .logo-row th {
+      border-top: 2px solid #343a40 !important;
+      border-bottom: 2px solid #343a40 !important;
+    }
+    .model-logo {
+      height: 28px;
+      width: auto;
+      object-fit: contain;
+    }
+    /* --- END CUSTOM STYLES --- */
+
+    caption {
+      caption-side: top;
+      padding: 1rem 0;
+      color: #6c757d;
+      text-align: left;
+    }
+    sup {
+      line-height: 0;
+    }
+    .table-responsive {
+      overflow-x: auto;
+    }
+  </style>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
@@ -138,7 +213,7 @@
 
 <section class="section">
   <div class="container-fluid table-container">
-    <h2 class="mb-3">Model Performance Analysis</h2>
+    <h2 class="subtitle is-3 mb-3">Model Performance Analysis</h2>
     <div class="table-responsive">
       <table class="table table-bordered table-hover">
         <caption>
@@ -176,17 +251,17 @@
           <tr class="logo-row">
             <th scope="col">Type</th>
             <th scope="col" class="bold-v-divider">Category</th>
-            <th scope="col"><img src="logos/qwen-color.png" alt="Qwen Logo" class="model-logo"></th>
-            <th scope="col" class="bold-v-divider"><img src="logos/deepseek-color.png" alt="DeepSeek Logo" class="model-logo"></th>
-            <th scope="col"><img src="logos/deepseek-color.png" alt="DeepSeek Logo" class="model-logo"></th>
-            <th scope="col"><img src="logos/meta-color.png" alt="Meta Logo" class="model-logo"></th>
-            <th scope="col"><img src="logos/gemma%20(1).png" alt="Gemma Logo" class="model-logo"></th>
-            <th scope="col"><img src="logos/microsoft-color.png" alt="Microsoft Logo" class="model-logo"></th>
-            <th scope="col" class="bold-v-divider"><img src="logos/openai%20(1).png" alt="OpenAI Logo" class="model-logo"></th>
-            <th scope="col"><img src="logos/meta-color.png" alt="Meta Logo" class="model-logo"></th>
-            <th scope="col"><img src="logos/gemma%20(1).png" alt="Gemma Logo" class="model-logo"></th>
-            <th scope="col"><img src="logos/microsoft-color.png" alt="Microsoft Logo" class="model-logo"></th>
-            <th scope="col"><img src="logos/openai%20(1).png" alt="OpenAI Logo" class="model-logo"></th>
+            <th scope="col"><img src="./static/images/qwen-color.png" alt="Qwen Logo" class="model-logo"></th>
+            <th scope="col" class="bold-v-divider"><img src="./static/images/gemini-brand-color.png" alt="DeepSeek Logo" class="model-logo"></th>
+            <th scope="col"><img src="./static/images/gemini-brand-color.png" alt="DeepSeek Logo" class="model-logo"></th>
+            <th scope="col"><img src="./static/images/meta-color.png" alt="Meta Logo" class="model-logo"></th>
+            <th scope="col"><img src="./static/images/gemma%20(1).png" alt="Gemma Logo" class="model-logo"></th>
+            <th scope="col"><img src="./static/images/microsoft-color.png" alt="Microsoft Logo" class="model-logo"></th>
+            <th scope="col" class="bold-v-divider"><img src="./static/images/openai%20(1).png" alt="OpenAI Logo" class="model-logo"></th>
+            <th scope="col"><img src="./static/images/meta-color.png" alt="Meta Logo" class="model-logo"></th>
+            <th scope="col"><img src="./static/images/gemma%20(1).png" alt="Gemma Logo" class="model-logo"></th>
+            <th scope="col"><img src="./static/images/microsoft-color.png" alt="Microsoft Logo" class="model-logo"></th>
+            <th scope="col"><img src="./static/images/openai%20(1).png" alt="OpenAI Logo" class="model-logo"></th>
           </tr>
         </thead>
         <tbody>
