@@ -211,11 +211,52 @@
   </div>
 </section>
 
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We introduce PlanQA, a diagnostic benchmark for evaluating geometric and spatial reasoning in large-language models (LLMs). PlanQA is grounded in structured representations of indoor scenes, such as kitchens, living rooms, and bedrooms, encoded in a symbolic format (e.g., JSON, XML layouts). The benchmark includes diverse question types that test not only metric and topological reasoning (e.g., distance, visibility, shortest paths) but also interior design constraints such as affordance, clearance, balance, and usability. Our results across a variety of frontier open-source and commercial LLMs show that while models may succeed in shallow queries, they often fail to simulate physical constraints, preserve spatial coherence, or generalize under layout perturbation. PlanQA uncovers a clear blind spot in today’s LLMs: they don’t consistently reason about real-world layouts. We hope that this benchmark inspires new work on language models that can accurately infer and manipulate spatial and geometric properties in practical settings.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+  </div>
+</section>
+<section id="gallery" class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Example Layouts</h2>
+    <div class="gallery">
+      <img src="./static/images/img1.png" alt="Kitchen Example 1">
+      <img src="./static/images/img2.png" alt="Kitchen Example 2">
+      <img src="./static/images/img3.png" alt="Kitchen Example 3">
+      <img src="./static/images/img4.png" alt="Living Room Example 1">
+      <img src="./static/images/img5.png" alt="Living Room Example 2">
+      <img src="./static/images/img6.png" alt="Living Room Example 3">
+      <img src="./static/images/img7.png" alt="Bedroom Example 1">
+      <img src="./static/images/img8.png" alt="Bedroom Example 2">
+      <img src="./static/images/img9.png" alt="Bedroom Example 3">
+    </div>
+    <p class="has-text-centered">
+      Representative layouts from the PlanQA dataset, spanning three room types (kitchen, living room, bedroom) and three geometric configurations (rectangular, L-shaped, open). Layouts are procedurally generated using explicit spatial constraints and validated for functional feasibility.
+    </p>
+  </div>
+</section>
+
 <section class="section">
   <div class="container-fluid table-container">
     <h2 class="subtitle is-3 mb-3">Model Performance Analysis</h2>
     <div class="table-responsive">
-      <table class="table table-bordered table-hover">
+      <table style="margin-left:auto;margin-right:auto;" class="table table-bordered table-hover">
         <caption>
           <strong>Question-level accuracy by category for each model across room types.</strong>
           <br>
@@ -315,47 +356,6 @@
     </div>
   </div>
 </section>
-
-
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            We introduce PlanQA, a diagnostic benchmark for evaluating geometric and spatial reasoning in large-language models (LLMs). PlanQA is grounded in structured representations of indoor scenes, such as kitchens, living rooms, and bedrooms, encoded in a symbolic format (e.g., JSON, XML layouts). The benchmark includes diverse question types that test not only metric and topological reasoning (e.g., distance, visibility, shortest paths) but also interior design constraints such as affordance, clearance, balance, and usability. Our results across a variety of frontier open-source and commercial LLMs show that while models may succeed in shallow queries, they often fail to simulate physical constraints, preserve spatial coherence, or generalize under layout perturbation. PlanQA uncovers a clear blind spot in today’s LLMs: they don’t consistently reason about real-world layouts. We hope that this benchmark inspires new work on language models that can accurately infer and manipulate spatial and geometric properties in practical settings.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
-
-  </div>
-</section>
-<section id="gallery" class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3">Example Layouts</h2>
-    <div class="gallery">
-      <img src="./static/images/img1.png" alt="Kitchen Example 1">
-      <img src="./static/images/img2.png" alt="Kitchen Example 2">
-      <img src="./static/images/img3.png" alt="Kitchen Example 3">
-      <img src="./static/images/img4.png" alt="Living Room Example 1">
-      <img src="./static/images/img5.png" alt="Living Room Example 2">
-      <img src="./static/images/img6.png" alt="Living Room Example 3">
-      <img src="./static/images/img7.png" alt="Bedroom Example 1">
-      <img src="./static/images/img8.png" alt="Bedroom Example 2">
-      <img src="./static/images/img9.png" alt="Bedroom Example 3">
-    </div>
-    <p class="has-text-centered">
-      Representative layouts from the PlanQA dataset, spanning three room types (kitchen, living room, bedroom) and three geometric configurations (rectangular, L-shaped, open). Layouts are procedurally generated using explicit spatial constraints and validated for functional feasibility.
-    </p>
-  </div>
-</section>
-
 
 
 
