@@ -2,6 +2,9 @@
 
 This repository contains the source code for the PlanQA project website.
 
+The PlanQA paper is available on [arXiv](https://arxiv.org/abs/2507.07644v1)
+([PDF](https://arxiv.org/pdf/2507.07644v1)).
+
 If you find PlanQA useful for your work please cite:
 ```
 @article{rodionov2025planqa,
